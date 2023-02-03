@@ -1,0 +1,1 @@
+<h2>Esto es la pagina de informacion de videojuegos</h2>

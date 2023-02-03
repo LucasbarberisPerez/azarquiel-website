@@ -1,12 +1,3 @@
-<script>
-    import Nav from "../components/Nav.svelte"
-    
-</script>
-<header>
-    <Nav />
-</header>
+<h2>Esto es el inicio</h2>
 
 
-<footer>
-    <h1>Esto es el footer</h1>
-</footer>

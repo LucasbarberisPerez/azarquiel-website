@@ -8,22 +8,21 @@
 		<InfoHeader/>
 		<Navbar />
 	</header>
-	<div class="container">
+	
 		<main>
 			<slot />
 		</main>
-	</div>
 
 	<footer>
-		<h2>esto es un footer</h2>
+		<h2>Footer</h2>
 	</footer>
 </div>
 
 <style lang="sass">
 	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap')
 	*
-		padding: 0
 		margin: 0
+		padding: 0
 		font-family: 'Open Sans', sans-serif
 		font-weight: 300
 </style>

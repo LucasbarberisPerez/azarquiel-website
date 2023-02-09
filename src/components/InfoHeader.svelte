@@ -14,9 +14,10 @@
 
 		<div
 			class="col-xs-12 col-sm-6 col-md-6 d-inline-flex align-items-center gap-2 justify-content-center"
+			id="contact"
 		>
-			<span><i class="fa fa-phone" /> 9252844043</span>
-			<span><i class="fa fa-envelope" /> 45003875.ies@edu.jccm.es</span>
+			<a href="tel:9252844043"><i class="fa fa-phone" /> 9252844043</a>
+			<a href="mailto:45003875.ies@edu.jccm.es"><i class="fa fa-envelope" /> 45003875.ies@edu.jccm.es</a>
 		</div>
 	</div>
 </div>
@@ -29,10 +30,14 @@
 		color: #999999
 		&:hover
 			color: #22b8f0
-	span
-		font-size: 0.8rem
-		color: #22b8f0
-		list-style: none
 	i
 		color: #999999
+		transition: 0.5s all ease-in-out
+		&:hover
+			color: #22b8f0
+	#contact
+		a
+			font-size: 0.8rem
+			color: #22b8f0
+			text-decoration: none
 </style>

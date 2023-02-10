@@ -1,6 +1,7 @@
 <script>
 	import Navbar from '../components/Navbar.svelte';
 	import InfoHeader from '../components/InfoHeader.svelte';
+	import InfoFooter from '../components/InfoFooter.svelte';
 </script>
 
 <div class="container-fluid">
@@ -14,7 +15,7 @@
 		</main>
 
 	<footer>
-		<h2>Footer</h2>
+		<InfoFooter/>
 	</footer>
 </div>
 

@@ -4,8 +4,8 @@
 </script>
 
 <div class="container-fluid">
-	<header>
-		<InfoHeader/>
+	<InfoHeader/>
+	<header class="sticky-top">
 		<Navbar />
 	</header>
 	

@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="container-fluid bgcolor ">
+<div class="container-fluid bgcolor">
 	<div class="row align-items-center text-center ">
 		<div class="col-xs-12 col-sm-6 col-md-6">
 			<a href="https://facebook.com/"><i class="fa-brands fa-facebook" /></a>

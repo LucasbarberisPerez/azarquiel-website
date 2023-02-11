@@ -1,8 +1,14 @@
-<div class="container-fluid border border-2">
-    <div class="container">
-        <h2>NOVEDADES</h2>
-        <p>Actualmente estamos ofertando cursos de instrucción por profesionales con mas de 20 años de experiencia.</p>
+<script>
+    import Carrousel from '../components/home/Carrousel.svelte';
+</script>
 
-    </div>
+<div class="container-fluid">
+       <Carrousel/>   
 </div>
 
+<style lang="sass">
+    *
+        margin: 0
+        padding: 0
+    
+</style>

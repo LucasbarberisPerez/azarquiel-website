@@ -2,7 +2,7 @@
 </script>
 
 <div class="container-fluid bgcolor">
-	<div class="row align-items-center">
+	<div class="row align-items-center p-2">
 		<div
 			class="col-xs-12 col-sm-6 col-md-6 d-inline-flex align-items-center gap-2 justify-content-center"
 		>

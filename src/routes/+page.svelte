@@ -1,9 +1,11 @@
 <script>
-    import Carrousel from '../components/home/Carrousel.svelte';
+    import Disciplinas from '../components/home/Disciplinas.svelte';
+    import Contenido from '../components/home/Contenido.svelte';
 </script>
 
 <div class="container-fluid">
-       <Carrousel/>   
+       <Disciplinas/>
+       <Contenido/>
 </div>
 
 <style lang="sass">

@@ -2,23 +2,31 @@
 	import Navbar from '../components/Navbar.svelte';
 	import InfoHeader from '../components/InfoHeader.svelte';
 	import InfoFooter from '../components/InfoFooter.svelte';
+	import {fly} from 'svelte/transition';
+	import PageTransition from '../components/animations/PageTransition.svelte';
+	import { onMount } from 'svelte';
+  	let ready = false;
+  	onMount(() => ready = true);
 </script>
 
-<div class="container-fluid">
+{#if ready}
+<div class="container-fluid" transition:fly="{{ y: 200, duration: 2000 }}">
 	<InfoHeader/>
 	<header class="sticky-top">
 		<Navbar />
 	</header>
 	
 		<main>
-			<slot />
+			<PageTransition>
+				<slot />
+			</PageTransition>
 		</main>
 
 	<footer>
 		<InfoFooter/>
 	</footer>
 </div>
-
+{/if}
 <style lang="sass">
 	@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap')
 	*

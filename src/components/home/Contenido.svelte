@@ -2,10 +2,10 @@
     import imagenCiberseguridad from '../../img/home-img/ciberseguridad-card.jpg'
     import imagenVideojuegos from '../../img/home-img/videojuegos-card.webp'
 </script>
-<div class="container">
+<div class="container mb-4">
     <div class="row">
         <h2 class="text-center">Novedades</h2>
-        <h3>Nuevos cursos de especializacion</h3>
+        <h3>Nuevos cursos de especialización</h3>
     </div>
     <div class="row">
         <div class="col">

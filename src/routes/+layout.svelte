@@ -17,9 +17,7 @@
 	</header>
 	
 		<main>
-			<PageTransition>
-				<slot />
-			</PageTransition>
+			<slot />
 		</main>
 
 	<footer>
